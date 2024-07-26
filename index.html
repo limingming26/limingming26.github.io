@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mingming Li - 个人简历</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function downloadCV() {
+            const link = document.createElement('a');
+            link.href = 'Li_CV.pdf';
+            link.download = 'Li_CV.pdf';
+            link.click();
+        }
+    </script>
+
+    <header>
+        <h1>Mingming Li</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="project.html">Project</a>
+            <a href="publications.html">Publications</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="workshops.html">Workshops and Conferences</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile">
+            <div class="profile-image">
+                <img src="photo.jpg" alt="Mingming Li">
+            </div>
+            <div class="profile-info">
+                <h2>About me</h2>
+                <p style="text-align: justify;">I am a PhD candidate at the Department of Sociology, University of Innsbruck. Currently, I am working on the Austrian Science Fund project “Affluence and the gender gap in STEM study choices” under the supervision of Prof. Uunk. I also serve as an academic editor of PloS One. I hold a Master of Philosophy in Economics from Central European University, a Master of Arts in Economics from Corvinus University of Budapest, and a Bachelor of Arts in Economics from Sichuan University. My research interests include gender inequality and environmental economics with more than ten peer-reviewed publications.</p>
+                
+                <p style="text-align: justify;">You can download my CV here: <a href="#" onclick="downloadCV()">CV</a></p>
+
+                <br>
+                <p><strong>Fields of Interest:</strong> Gender Inequality in STEM; Labor Economics; Environmental Economics</p>
+                <p><strong>Project:</strong> Affluence and the gender gap in STEM study choices (Austrian Science Fund, P36789)</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Period</th>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                </tr>
+                <tr>
+                    <td>09/2023-Now</td>
+                    <td>PhD candidate in Sociology</td>
+                    <td>University of Innsbruck</td>
+                </tr>
+                <tr>
+                    <td>09/2018-12/2021</td>
+                    <td>MPhil in Economics</td>
+                    <td>Central European University</td>
+                </tr>
+                <tr>
+                    <td>09/2016-06/2018</td>
+                    <td>MA in Economics</td>
+                    <td>Corvinus University of Budapest</td>
+                </tr>
+                <tr>
+                    <td>09/2012-06/2016</td>
+                    <td>Bachelor of Economics</td>
+                    <td>Sichuan University</td>
+                </tr>
+                <tr>
+                    <td>09/2012-06/2016</td>
+                    <td>Bachelor of Literature</td>
+                    <td>Sichuan University</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+        <section id="awards">
+            <h2>Awards</h2>
+            <table>
+                <tr>
+                    <th>Award</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>CEU Doctoral Scholarships</td>
+                    <td>2018-2021</td>
+                </tr>
+                <tr>
+                    <td>Stipendium Hungaricum Scholarship</td>
+                    <td>2016-2018</td>
+                </tr>
+                <tr>
+                    <td>Sichuan University Merit Student</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>First Prize of Challenge Cup for National College Students in Sichuan University</td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td>Second Prize of provincial level in the 1st Chinese College Student’s “Internet Plus” Innovation Competition</td>
+                    <td>2015</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mingming Li. All rights reserved.</p>
+    </footer>
+</body>
+</html>
