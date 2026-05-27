@@ -1,114 +1,137 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mingming Li - 个人简历</title>
+    <meta name="description" content="Mingming Li, PhD candidate in Sociology at the University of Innsbruck. Research on gender inequality, STEM education, labor markets, and platform work.">
+    <title>Mingming Li | Sociology PhD Candidate</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script>
-        function downloadCV() {
-            const link = document.createElement('a');
-            link.href = 'Li_CV.pdf';
-            link.download = 'Li_CV.pdf';
-            link.click();
-        }
-    </script>
-
-    <header>
-        <h1>Mingming Li</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="project.html">Project</a>
-            <a href="publications.html">Publications</a>
+    <header class="site-header">
+        <a class="site-title" href="index.html">Mingming Li</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a class="active" href="index.html">Home</a>
             <a href="research.html">Research</a>
+            <a href="publications.html">Publications</a>
+            <a href="project.html">Projects</a>
             <a href="teaching.html">Teaching</a>
-            <a href="workshops.html">Workshops and Conferences</a>
+            <a href="workshops.html">Conferences</a>
             <a href="contact.html">Contact</a>
+            <a class="nav-pill" href="Li_CV.pdf">CV</a>
         </nav>
     </header>
 
     <main>
-        <section class="profile">
+        <section class="hero">
             <div class="profile-image">
-                <img src="https://raw.githubusercontent.com/limingming26/limingming26.github.io/main/photo.JPG" alt="Mingming Li">
+                <img src="photo.JPG" alt="Portrait of Mingming Li">
             </div>
-            <div class="profile-info">
-                <h2>About me</h2>
-                <p style="text-align: justify;">I am a PhD candidate at the Department of Sociology, University of Innsbruck. Currently, I am a visiting scholar in The Leibniz Institute for Educational Trajectories (LIfBi) and working on the Austrian Science Fund project “Affluence and the gender gap in STEM study choices” under the supervision of Prof. Uunk. I also serve as an academic editor of PloS One. I hold a Master of Philosophy in Economics from Central European University, a Master of Arts in Economics from Corvinus University of Budapest, and a Bachelor of Arts in Economics from Sichuan University. My research interests include gender inequality and labor economics.</p>
-                
-                <p style="text-align: justify;">You can download my CV here (until June 2025): <a href="#" onclick="downloadCV()">CV</a></p>
-
-                <br>
-                <p><strong>Fields of Interest:</strong> Gender Inequality in STEM; Labor Economics; Environmental Economics</p>
-                <p><strong>Project:</strong> Affluence and the gender gap in STEM study choices (Austrian Science Fund, P36789)</p>
+            <div class="hero-copy">
+                <p class="eyebrow">PhD candidate in Sociology, University of Innsbruck</p>
+                <h1>Gender inequality, STEM education, and labor market stratification.</h1>
+                <p class="lead">
+                    I study how economic resources, security, expected returns, and institutional contexts shape gender gaps in STEM preferences, educational trajectories, and labor market outcomes.
+                </p>
+                <div class="quick-links" aria-label="Profile links">
+                    <a href="Li_CV.pdf">Download CV</a>
+                    <a href="publications.html">Publications</a>
+                    <a href="https://www.researchgate.net/profile/Mingming-Li-21">ResearchGate</a>
+                    <a href="https://www.linkedin.com/in/limingming0521/">LinkedIn</a>
+                    <a href="https://github.com/limingming26">GitHub</a>
+                </div>
             </div>
         </section>
 
-        <section id="education">
+        <section class="section-grid">
+            <article>
+                <h2>About</h2>
+                <p>
+                    I am a PhD candidate at the Institute for Sociology, University of Innsbruck. My dissertation, supervised by Prof. Wilfred Uunk, examines economic resources and the gender gap in STEM preferences and choices.
+                </p>
+                <p>
+                    My work connects sociology, economics, education, and labor market research. I use quantitative methods to study gender inequality, STEM education, social stratification, gig and platform work, wage gaps, and China&apos;s labor market.
+                </p>
+            </article>
+            <aside class="fact-panel">
+                <h2>Current Work</h2>
+                <ul class="clean-list">
+                    <li><strong>Major contributor</strong>, FWF project <em>Affluence and the Gender Gap in STEM Study Choices</em> (P36789).</li>
+                    <li><strong>Principal investigator</strong>, EPOS University of Innsbruck project on gig economy and gender wage gaps in China.</li>
+                    <li><strong>Visiting scholar</strong>, Leibniz Institute for Educational Trajectories (LIfBi), 10/2025-01/2026.</li>
+                    <li><strong>Academic Editor</strong>, PLOS ONE, 01/2024-01/2025.</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Research Interests</h2>
+            <div class="tag-list">
+                <span>Gender inequality</span>
+                <span>STEM education</span>
+                <span>Labor economics</span>
+                <span>Social stratification</span>
+                <span>Gig and platform work</span>
+                <span>Wage gaps</span>
+                <span>Environmental and energy studies</span>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-heading">
+                <h2>Selected Publications</h2>
+                <a href="publications.html">View all publications</a>
+            </div>
+            <ol class="publication-list compact">
+                <li>
+                    Wilfred Uunk and <strong>Mingming Li*</strong>. 2026. "Does Gender-Equality Cause Larger Gender Differences in STEM Study Choices? A Longitudinal Reassessment of the Educational Gender-Equality Paradox." <em>Sex Roles</em>.
+                    <a href="https://doi.org/10.1007/s11199-026-01654-1">doi.org/10.1007/s11199-026-01654-1</a>
+                </li>
+                <li>
+                    <strong>Mingming Li*</strong>, Xinyun Hu, Keyan Jin, and Jiachen Han. 2025. "Exploring Factors Influencing Entry into the Gig Economy: A Study of Chinese Workers." <em>Acta Psychologica</em>.
+                    <a href="https://doi.org/10.1016/j.actpsy.2025.105301">doi.org/10.1016/j.actpsy.2025.105301</a>
+                </li>
+                <li>
+                    <strong>Mingming Li*</strong> and Xinyun Hu. 2025. "The Return on Education and the Gender Wage Gap in China: A Sector Perspective." <em>SAGE Open</em>.
+                    <a href="https://doi.org/10.1177/21582440251327015">doi.org/10.1177/21582440251327015</a>
+                </li>
+                <li>
+                    <strong>Mingming Li*</strong>, Yuan Tang, and Keyan Jin. 2024. "Labor Market Segmentation and Gender Inequality: Evidence from China." <em>PLOS ONE</em>.
+                    <a href="https://doi.org/10.1371/journal.pone.0299355">doi.org/10.1371/journal.pone.0299355</a>
+                </li>
+            </ol>
+            <p class="note">* Corresponding author.</p>
+        </section>
+
+        <section>
             <h2>Education</h2>
-            <table>
-                <tr>
-                    <th>Period</th>
-                    <th>Degree</th>
-                    <th>Institution</th>
-                </tr>
-                <tr>
-                    <td>09/2023-Now</td>
-                    <td>PhD candidate in Sociology</td>
-                    <td>University of Innsbruck</td>
-                </tr>
-                <tr>
-                    <td>09/2018-12/2021</td>
-                    <td>MPhil in Economics</td>
-                    <td>Central European University</td>
-                </tr>
-                <tr>
-                    <td>09/2016-06/2018</td>
-                    <td>MA in Economics</td>
-                    <td>Corvinus University of Budapest</td>
-                </tr>
-                <tr>
-                    <td>09/2012-06/2016</td>
-                    <td>Bachelor of Economics</td>
-                    <td>Sichuan University</td>
-                </tr>
-                <tr>
-                    <td>09/2012-06/2016</td>
-                    <td>Bachelor of Literature</td>
-                    <td>Sichuan University</td>
-                </tr>
-            </table>
-        </section>
-        <br>
-        <section id="awards">
-            <h2>Awards</h2>
-            <table>
-                <tr>
-                    <th>Award</th>
-                    <th>Year</th>
-                </tr>
-                <tr>
-                    <td>CEU Doctoral Scholarships</td>
-                    <td>2018-2021</td>
-                </tr>
-                <tr>
-                    <td>Stipendium Hungaricum Scholarship</td>
-                    <td>2016-2018</td>
-                </tr>
-                <tr>
-                    <td>Sichuan University Merit Student</td>
-                    <td>2016</td>
-                </tr>
-            </table>
+            <div class="timeline">
+                <article>
+                    <span>09/2023-present</span>
+                    <h3>PhD candidate in Sociology</h3>
+                    <p>University of Innsbruck</p>
+                </article>
+                <article>
+                    <span>09/2018-12/2021</span>
+                    <h3>MPhil in Economics</h3>
+                    <p>Central European University</p>
+                </article>
+                <article>
+                    <span>09/2016-06/2018</span>
+                    <h3>MA in International Economy</h3>
+                    <p>Corvinus University of Budapest</p>
+                </article>
+                <article>
+                    <span>09/2012-06/2016</span>
+                    <h3>Bachelor of Economics; Bachelor of Literature</h3>
+                    <p>Sichuan University</p>
+                </article>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Mingming Li. All rights reserved.</p>
+    <footer class="site-footer">
+        <p>&copy; 2026 Mingming Li. Last updated May 2026.</p>
     </footer>
 </body>
 </html>
-
-
