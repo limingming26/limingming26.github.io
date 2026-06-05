@@ -265,15 +265,16 @@ p {
 
 .timeline {
     display: grid;
-    gap: 14px;
+    gap: 6px;
 }
 
 .timeline article {
     display: grid;
     grid-template-columns: 170px minmax(0, 1fr);
-    gap: 18px;
-    padding: 18px 0;
+    gap: 14px;
+    padding: 11px 0;
     border-top: 1px solid var(--line);
+    line-height: 1.45;
 }
 
 .timeline span {
@@ -283,6 +284,12 @@ p {
 
 .timeline h3 {
     margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.timeline p {
+    grid-column: 2;
+    margin-bottom: 0;
 }
 
 .project-list {
@@ -363,6 +370,10 @@ tr:last-child td {
     .timeline article,
     .meta-list div {
         grid-template-columns: 1fr;
+    }
+
+    .timeline p {
+        grid-column: 1;
     }
 
     .profile-image {
