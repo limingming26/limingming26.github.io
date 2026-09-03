@@ -254,6 +254,11 @@ p {
     padding-left: 4px;
 }
 
+.publication-list a {
+    overflow-wrap: anywhere;
+    word-break: break-all;
+}
+
 .publication-list.compact li {
     margin-bottom: 16px;
 }
