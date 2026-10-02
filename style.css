@@ -410,3 +410,130 @@ tr:last-child td {
         justify-content: center;
     }
 }
+
+/* Reading and navigation refinements for the research pages. */
+html {
+    scroll-padding-top: 24px;
+}
+
+h1, h2, h3 {
+    text-wrap: balance;
+}
+
+.hero-copy .lead {
+    margin-top: 18px;
+}
+
+.page-intro .lead {
+    margin-top: 18px;
+}
+
+.skip-link {
+    position: absolute;
+    left: 16px;
+    top: -80px;
+    z-index: 10;
+    padding: 8px 14px;
+    background: white;
+    border: 2px solid var(--accent);
+}
+
+.skip-link:focus {
+    top: 12px;
+}
+
+a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+.section-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    margin: -24px 0 24px;
+}
+
+.publication-list li {
+    padding: 16px 0 18px 6px;
+    margin: 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.publication-list li:last-child {
+    border-bottom: 0;
+}
+
+.citation {
+    margin-bottom: 7px;
+}
+
+.citation a {
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
+.paper-meta {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+.paper-status {
+    display: inline-block;
+    margin: 0 8px 3px 0;
+    padding: 1px 7px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    color: var(--accent-strong);
+    background: var(--surface);
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.paper-status.published {
+    background: var(--soft);
+}
+
+.paper-summary {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.paper-summary summary {
+    color: var(--accent-strong);
+    cursor: pointer;
+    width: fit-content;
+}
+
+.paper-summary p {
+    margin: 9px 0 0;
+    max-width: 900px;
+}
+
+.research-links {
+    margin: 18px 0 0;
+    padding-left: 22px;
+}
+
+.research-links li + li {
+    margin-top: 12px;
+}
+
+.inline-status {
+    display: block;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.talk-title {
+    font-style: italic;
+}
+
+@media screen and (max-width: 520px) {
+    .hero { gap: 24px; padding-top: 0; }
+    .fact-panel, .project-card { padding: 20px; }
+    .section-heading { align-items: flex-start; flex-direction: column; gap: 0; }
+    .section-links { flex-direction: column; gap: 10px; }
+}
