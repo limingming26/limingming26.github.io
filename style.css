@@ -268,6 +268,17 @@ p {
     font-size: 0.95rem;
 }
 
+#selected-research > h2 {
+    margin-bottom: 8px;
+}
+
+.manuscript-note {
+    max-width: 78ch;
+    margin-bottom: 24px;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
 .timeline {
     display: grid;
     gap: 6px;
