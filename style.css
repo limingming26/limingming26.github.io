@@ -273,7 +273,6 @@ p {
 }
 
 .manuscript-note {
-    max-width: 78ch;
     margin-bottom: 24px;
     line-height: 1.6;
     text-wrap: pretty;
