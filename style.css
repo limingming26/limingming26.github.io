@@ -302,7 +302,8 @@ p {
     margin-bottom: 6px;
 }
 
-.timeline p {
+.timeline p,
+.timeline article > details {
     grid-column: 2;
     margin-bottom: 0;
 }
@@ -387,7 +388,8 @@ tr:last-child td {
         grid-template-columns: 1fr;
     }
 
-    .timeline p {
+    .timeline p,
+    .timeline article > details {
         grid-column: 1;
     }
 
